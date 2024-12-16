@@ -10,6 +10,7 @@ body {
 }
 
 main {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -21,8 +22,6 @@ header {
   color: #f2f3d9;
   display: flex;
 }
-
-
 
 .homeSection{
   display: flex;
