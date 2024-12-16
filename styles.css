@@ -1,6 +1,59 @@
 * {
   box-sizing: border-box;
 }
+.off-screen-menu {
+  border-radius: 20px 0px 0px 20px ;
+  background-color:  rgb(34, 37, 49);
+  height: 300px;
+  width: 150px;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  transition: .3s ease;
+}
+.off-screen-menu.active {
+  right: 0;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  background-color:rgb(21, 30, 63);
+}
+
+.ham-menu {
+  height: 50px;
+  width: 40px;
+  margin-left: auto;
+  position: relative;
+}
+.ham-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #6F86FF;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s ease;
+}
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+.ham-menu.active span {
+  background-color: white;
+}
 
 body {
   background-color: #fdfdfd;
@@ -13,22 +66,16 @@ main {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vw;
 }
 
-
-header {
-  background-color:rgb(21, 30, 63);
-  color: #f2f3d9;
-  display: flex;
-}
 
 .homeSection{
   display: flex;
   justify-content: center;
   margin: 50px;  
 }
-#home{ 
+#home { 
   margin: 0;
 }
 
@@ -48,6 +95,7 @@ header {
 }
 
  #about {
+  height: 350px;
   width: 100vw;
   background-color:rgb(21, 30, 63);
   color: #f2f3d9;
@@ -85,6 +133,7 @@ header {
 
 /* FOOTER */
 footer {
+  max-width: 100vw;
   display: flex;
   justify-content: center;
 }
