@@ -25,15 +25,18 @@
 nav {
   padding: 1rem;
   display: flex;
-  background-color:rgb(21, 30, 63);
 }
 
 .ham-menu {
   height: 50px;
   width: 40px;
   margin-left: auto;
-  position: relative;
+  position: fixed; /* Change from relative to fixed */
+  top: 0; /* Stick to the top of the screen */
+  right: 20px; /* Adjust the right position based on your design */
+  z-index: 1000; /* Ensure it's above other elements */
 }
+
 .ham-menu span {
   height: 5px;
   width: 100%;
