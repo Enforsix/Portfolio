@@ -1,23 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
   <head>
-    <title>Home</title>
+    <title>Hjem</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+    <header>
+      <div class="headerLogo">CG</div>
+      <nav>
+        <ul class="navigationList">
+          <a href="#home"><li>Hjem</li></a>
+          <a href="#about"><li>Om meg</li></a>
+          <a href="#prject"> <li>Prosjekter</li></a>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>Home page</h1>
+      <section id="home" class="homeSection">
+        <!-- Hjem -->
+        <img id="homeImg" class="profImg" src="/Image/PROF 3.jpg">
+        <div class="aboutMe"> 
+          <h1>Velkommen til min Siden</h1>
+          <p> Hi, my name is Christian, and I’m 38 years old. I recently completed a 3-month course in HTML, CSS, and JavaScript. Through this course, I gained a strong foundation in web development and the skills to create interactive and responsive websites. I’m passionate about technology and excited to continue learning and building projects </p>
+        </div>
+      </section>
+      <section id="about" class="aboutSection">
+        <!-- Om meg -->
+        <h1>About Me</h1>
+        <p>Hi, I’m Christian! I enjoy Programming, Traveling, and Gaming. I work well with others and value collaboration and teamwork. When I travel, I bring my laptop so I can stay connected and productive wherever I am. I’m always available via phone and email for work, even while traveling. I’m also driven by a passion for learning, continuously expanding my knowledge and improving my skills. Whether it’s exploring new places or diving into new technologies, I’m always ready for the next challenge.</p>
+      </section>
+      <section id="project" class="projectSection">
+        <!-- Prosjekter -->
+        <div class="card">
+        <a href="https://bevegelse-enforsixs-projects.vercel.app/">Movement and color change</a>
+        <img src="/Image/Screenshot 2024-12-16 133151.png" alt="">
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+        <div class="card">
+
+        </div>
+
+      </section>
     </main>
+    <footer>
+      <h3>Christian Gullaksen</h3>
+    </footer>
   </body>
 </html>
