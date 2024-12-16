@@ -6,6 +6,7 @@ body {
   background-color: #fdfdfd;
   color: #0d0d0d;
   margin: 0;
+  width: 100vw;
 }
 
 main {
@@ -71,23 +72,21 @@ header {
  }
 
 /* card */
-.projectSection{
-  display: flex;
-}
-
 .cards {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .card {
   display: flex;
-  border: 1px solid balck;
+  border: 1px solid black; 
+  border-radius: 10px;
   width: 300px;
 }
 
 .cardImg {
-  width: 80px;
+  border-radius: 15px;
+  width: 295px;
   height: auto;
 }
 
