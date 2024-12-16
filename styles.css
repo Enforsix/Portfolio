@@ -17,6 +17,8 @@ main {
 
 /* HEADER */
 header {
+  background-color:rgb(21, 30, 63);
+  color: #f2f3d9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,15 +47,14 @@ header {
   margin: 50px;  
 }
 #home{ 
-  background-color: rgb(21, 30, 63);
   margin: 0;
 }
+
 .aboutMe{
   max-width: 500px;
   padding-left: 50px;
   align-self: flex-end;
   margin-top: auto;
-  color: #f2f3d9;
 }
 
 #homeImg {
@@ -63,13 +64,21 @@ header {
     height: auto;            
     border-radius: 130px 0 130px 0;  
 }
+
  #about {
+  width: 100vw;
+  background-color:rgb(21, 30, 63);
+  color: #f2f3d9;
   display: flex;
-  flex-direction: column;
-  align-self: center;
   margin-top: 85px;
-  max-width: 500px;
  }
+
+.aboutSection{
+  display: flex;
+  background-color: rgb(21, 30, 63);
+  justify-content: center;
+  
+}
 
 /* card */
 .cards {
@@ -78,6 +87,7 @@ header {
 }
 
 .card {
+  margin-top: 20px;
   display: flex;
   border: 1px solid black; 
   border-radius: 10px;
