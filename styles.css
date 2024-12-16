@@ -75,15 +75,22 @@ header {
   display: flex;
 }
 
-.cards{
-  width: 500px;
-  border: 2px solid black;
+.cards {
   display: flex;
+  flex-direction: column;
 }
+
+.card {
+  display: flex;
+  border: 1px solid balck;
+  width: 300px;
+}
+
 .cardImg {
-  max-width: 300px;
-  height: auto; 
+  width: 80px;
+  height: auto;
 }
+
 
 /* FOOTER */
 footer {
