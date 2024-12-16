@@ -7,31 +7,46 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
+  <header>
+    <nav class="navbar">
+        <div class="logo"></div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#prosject">Prosject</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
   <body>
     <header>
-      <div class="headerLogo">CG</div>
-      <nav>
-        <ul class="navigationList">
-          <a href="#home"><li>Hjem</li></a>
-          <a href="#about"><li>Om meg</li></a>
-          <a href="#prject"> <li>Prosjekter</li></a>
-        </ul>
-      </nav>
     </header>
     <main>
       <section id="home" class="homeSection">
         <!-- Hjem -->
         <img id="homeImg" class="profImg" src="/Image/PROF 3.jpg">
         <div class="aboutMe"> 
-          <h1>Velkommen til min Siden</h1>
-          <p> Hi, my name is Christian, and I’m 38 years old. I recently completed a 3-month course in HTML, CSS, and JavaScript. Through this course, I gained a strong foundation in web development and the skills to create interactive and responsive websites. I’m passionate about technology and excited to continue learning and building projects </p>
+          <h1>Welcome to my Website</h1>
+          <p>Hi, I’m Christian! I enjoy Programming, Traveling, and Gaming. I work well with others and value collaboration and teamwork. When I travel, I bring my laptop so I can stay connected and productive wherever I am. I’m always available via phone and email for work, even while traveling. I’m also driven by a passion for learning, continuously expanding my knowledge and improving my skills. Whether it’s exploring new places or diving into new technologies, I’m always ready for the next challenge.            
+          </p>
+          
         </div>
       </section>
       <section id="about" class="aboutSection">
         <!-- Om meg -->
         <div style="max-width: 600px;">
           <h1>About Me</h1>
-          <p>Hi, I’m Christian! I enjoy Programming, Traveling, and Gaming. I work well with others and value collaboration and teamwork. When I travel, I bring my laptop so I can stay connected and productive wherever I am. I’m always available via phone and email for work, even while traveling. I’m also driven by a passion for learning, continuously expanding my knowledge and improving my skills. Whether it’s exploring new places or diving into new technologies, I’m always ready for the next challenge.            
+          <p>
+             My name is Christian, and I’m 38 years old. I recently completed a 3-month course in HTML, CSS, and JavaScript. Through this course, I gained a strong foundation in web development and the skills to create interactive and responsive websites. I’m passionate about technology and excited to continue learning and building projects. 
+          </p>
+
+          <p>
+            I am proficient in using various tools and platforms essential for modern web development and design. These include StackBlitz for real-time coding environments, GitHub for version control and collaboration, W3Schools as a reference for learning and quick lookups, Figma for UI/UX design, and Vercel for deploying and hosting web applications. My experience with these tools allows me to streamline workflows and deliver high-quality results efficiently.
           </p>
       </div>        
       </section>
@@ -64,7 +79,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="Contact">
       <h3>Christian Gullaksen</h3>
     </footer>
   </body>

@@ -15,32 +15,15 @@ main {
   height: 100vh;
 }
 
-/* HEADER */
+
 header {
   background-color:rgb(21, 30, 63);
   color: #f2f3d9;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 0;
 }
 
-.headerLogo {
-  padding: 8px;
-  border: 2px solid black;
-  border-radius: 50%;
-}
 
-.navigationList {
-  display: flex;
-  justify-content: end;
-  gap: 15px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-/* MAIN */
 .homeSection{
   display: flex;
   justify-content: center;
