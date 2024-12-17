@@ -140,11 +140,20 @@ footer {
   display: flex;
   justify-content: center;
 }
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /*madia*/
 @media (max-width: 426px) {
   .homeSection {
+    flex-direction: column;
+  }
+  .projectSection{
+    display: flex;
     flex-direction: column;
   }
 }
