@@ -137,15 +137,17 @@ main {
 /* FOOTER */
 footer {
   max-width: 100vw;
+  background-color:rgb(21, 30, 63);
+  color: #f2f3d9;
   display: flex;
   justify-content: center;
-}
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+.conName{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /*madia*/
 @media (max-width: 426px) {
